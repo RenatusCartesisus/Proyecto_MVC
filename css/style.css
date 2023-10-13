@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 90%;
+    max-width: 1070px;
+    margin: auto;
+}
+form{
+    width: 80%; 
+    max-width: 400px;      
+    margin: auto;       
+    padding: 80px 0;    
+    display: flex;
+    flex-direction: column;
+}
+body{
+background-image: url('/V/MVC/img/wallpaper.jpg');
+}
+.input-group{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 10px;
+    position: relative;
+}
+.input-group .icons{
+    width: 35px;
+    height: 35px;
+    background-color: rgb(7, 93, 240);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.input-group .form-control{
+    flex-grow: 1;
+    height: 35px;
+    border: transparent;
+    background-color: #fff;
+    color: #757575;
+    padding: 10px 15px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    outline: 0;
+    margin-bottom: 10px;
+}
+.error{
+    color: #b41515;
+}
+.btn{
+    cursor: pointer;
+}
+.btn-flat-green{
+    border: transparent;
+    height: 35px;
+    width: 100%;
+    background: #007be6;
+    color: #fff;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    font-weight: bold;
+    outline: 0;
+}
+.login-link{
+    text-align: center;
+    margin: auto;
+    display: block;
+    color: #aef8f6;
+}
+.login-link:hover{
+    color: #ffee00;
+}
